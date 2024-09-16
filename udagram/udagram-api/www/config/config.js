@@ -31,10 +31,10 @@ dotenv.config();
 // - AWS_SECRET_ACCESS_KEY
 // Are Also needed
 exports.config = {
-    username: `${process.env.POSTGRES_USERNAME}`,
-    password: process.env.POSTGRES_PASSWORD,
-    database: process.env.POSTGRES_DB,
-    host: process.env.POSTGRES_HOST,
+  username: 'postgres',
+  password: 'myPassword',
+  database: 'postgres',
+  host: 'udagramdb.c4wf1rash89b.us-west-2.rds.amazonaws.com',
     aws_region: process.env.AWS_REGION,
     aws_profile: process.env.AWS_PROFILE,
     aws_media_bucket: process.env.AWS_BUCKET,
