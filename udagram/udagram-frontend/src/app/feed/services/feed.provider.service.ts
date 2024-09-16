@@ -7,7 +7,6 @@ import { ApiService } from '../../api/api.service';
 @Injectable({
   providedIn: 'root'
 })
-
 export class FeedProviderService {
   currentFeed$: BehaviorSubject<FeedItem[]> = new BehaviorSubject<FeedItem[]>([]);
 
@@ -28,4 +27,3 @@ export class FeedProviderService {
   }
 
 }
-

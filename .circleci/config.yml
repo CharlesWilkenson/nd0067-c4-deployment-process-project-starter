@@ -9,11 +9,11 @@ jobs:
   build:
     docker:
       # the base image can run most needed actions with orbs
-      - image: "cimg/node:14.15"
+      - image: "cimg/node:18.20.4"
     steps:
       # install node and checkout code
       - node/install:
-          node-version: '14.15'         
+          node-version: '18.20.4'         
       - checkout
       # Use root level package.json to install dependencies in the frontend app
       - run:
@@ -63,6 +63,7 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
+            npm run deploy 
             
 workflows:
   udagram:
@@ -79,4 +80,5 @@ workflows:
       - deploy:
           requires:
             - hold
+
             

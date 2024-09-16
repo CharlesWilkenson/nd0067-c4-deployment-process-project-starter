@@ -1,6 +1,6 @@
 branch-defaults:
   default:
-    environment: null
+    environment: my-store-dev
 global:
   application_name: my-store
   branch: null
