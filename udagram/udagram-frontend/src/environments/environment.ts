@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   appName: 'Udagram',
-  apiHost: 'udagram-api-dev.us-west-2.elasticbeanstalk.com/api/v0'
+  apiHost: 'udagram-api-dev.us-west-2.elasticbeanstalk.com/api/v0',
 };
 
 /*
@@ -13,6 +13,6 @@ export const environment = {
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
  *
  * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.  'http://localhost:8081/api/v0'
+ * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
