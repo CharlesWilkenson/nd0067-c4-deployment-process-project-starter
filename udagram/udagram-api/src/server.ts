@@ -36,7 +36,7 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
     "allowedHeaders": [
       'Origin', 'X-Requested-With',
       'Content-Type', 'Accept',
-
+      'X-Access-Token', 'Authorization', 'Access-Control-Allow-Origin',
       'Access-Control-Allow-Headers',
       'Access-Control-Allow-Methods'
     ],
